@@ -74,8 +74,6 @@ def replay(fn: Callable) -> None:
         print(f'{fn.__qualname__}(*{input}) -> {output}')
 
 
-
-
 class Cache:
     """
     Cache redis class
